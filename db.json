@@ -1,44 +1,12 @@
 {
     "books": [
       {
-        "title": "Mästaren och Margarita",
-        "author": "Mikhail Bulgakov",
-        "pages": 448,
-        "year": 1967,
-        "genre": "Filosofi, Satir",
-        "id": "jeVK"
-      },
-      {
-        "title": "Stolthet och fördom",
-        "author": "Jane Austen",
-        "pages": 432,
-        "year": 1813,
-        "genre": "Romantik, Klassisk litteratur",
-        "id": "6kEH"
-      },
-      {
-        "title": "1984",
-        "author": "George Orwell",
-        "pages": 328,
-        "year": 1949,
-        "genre": "Dystopi, Politik",
-        "id": "lFfF"
-      },
-      {
         "title": "Hobbit",
         "author": "J.R.R. Tolkien",
         "pages": 310,
         "year": 1937,
         "genre": "Fantasy, Äventyr",
         "id": "xntX"
-      },
-      {
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "pages": 277,
-        "year": 1951,
-        "genre": "Fiction, Coming-of-age",
-        "id": "gwK8"
       },
       {
         "title": "Den hemlige kocken",
