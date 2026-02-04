@@ -7,6 +7,7 @@ async function renderPage() {
         const response = await axios.get('http://localhost:5001/books');
         const books = response.data;
 
+        console.log(response.data);
         books.forEach(book => {
             const bookDiv = document.createElement('div');
             bookDiv.classList.add('book');
@@ -69,28 +70,37 @@ function enableEditMode(bookDiv, book) {
         .addEventListener('click', renderPage);
 }
 
-
-
 // Lägg till en ny bok
 async function addBook(bookData) {
-    // TODO:
-    // 1. Skicka bookData till API:t med axios.post
-    // 2. Anropa renderPage() efter lyckad POST
-    console.log("addBook called with:", bookData);
+    axios.post("http://localhost:5001/books", bookData)
 }
+
+let addBtn = document.querySelector("#addBook");
+
+addBtn.addEventListener("click", () => { 
+    let titleInput = document.querySelector("#title");
+    let authorInput = document.querySelector("#author");
+    let pagesInput = document.querySelector("#pages");
+    let yearInput = document.querySelector("#year");
+    let genreInput = document.querySelector("#genre");
+
+    let newBook = {
+        title: titleInput.value,
+        author:authorInput.value,
+        pages:pagesInput.value,
+        year:yearInput.value,
+        genre: genreInput.value
+    }
+    
+    addBook(newBook)
+})
 
 // Ta bort en bok
 async function deleteBook(bookId) {
-    // TODO:
-    // 1. Skicka DELETE-request till API:t med bookId
-    // 2. Anropa renderPage() efter lyckad DELETE
-    console.log("deleteBook called with id:", bookId);
+    axios.delete(`http://localhost:5001/books/${bookId}`)
 }
 
 // Redigera en bok
 async function editBook(bookId, updatedData) {
-    // TODO:
-    // 1. Skicka PUT eller PATCH-request till API:t
-    // 2. Anropa renderPage() efter lyckad uppdatering
-    console.log("editBook called with:", bookId, updatedData);
+    axios.put(`http://localhost:5001/books/${bookId}`, updatedData)
 }

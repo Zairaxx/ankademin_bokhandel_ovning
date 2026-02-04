@@ -1,53 +1,51 @@
 {
-    "books": [
-      {
-        "title": "Hobbit",
-        "author": "J.R.R. Tolkien",
-        "pages": 310,
-        "year": 1937,
-        "genre": "Fantasy, Äventyr",
-        "id": "xntX"
-      },
-      {
-        "title": "Den hemlige kocken",
-        "author": "Matts E. Karlsson",
-        "pages": 288,
-        "year": 2004,
-        "genre": "Mat, Hälsa",
-        "id": "9pYE"
-      },
-      {
-        "title": "Sagan om ringen",
-        "author": "J.R.R. Tolkien",
-        "pages": 1178,
-        "year": 1954,
-        "genre": "Fantasy, Äventyr",
-        "id": "JGGC"
-      },
-      {
-        "title": "En man som heter Ove",
-        "author": "Fredrik Backman",
-        "pages": 368,
-        "year": 2012,
-        "genre": "Fiction, Humor",
-        "id": "Wt1H"
-      },
-      {
-        "title": "Frankenstein",
-        "author": "Mary Shelley",
-        "pages": 280,
-        "year": 1818,
-        "genre": "Gothic fiction, Science fiction",
-        "id": "nbnC"
-      },
-      {
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "pages": 281,
-        "year": 1960,
-        "genre": "Fiction, Drama",
-        "id": "Wzdi"
-      }
-    ]
-  }
-  
+  "books": [
+    {
+      "title": "Den hemlige kocken",
+      "author": "Matts E. Karlsson",
+      "pages": 288,
+      "year": 2004,
+      "genre": "Mat, Hälsa",
+      "id": "9pYE"
+    },
+    {
+      "title": "Sagan om ringarna",
+      "author": "J.R.R. Tolkien",
+      "year": 2026,
+      "genre": "Fantasy, Äventyr",
+      "id": "JGGC"
+    },
+    {
+      "title": "En man som heter Ove",
+      "author": "Fredrik Backman",
+      "pages": 368,
+      "year": 2012,
+      "genre": "Fiction, Humor",
+      "id": "Wt1H"
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "pages": 280,
+      "year": 1818,
+      "genre": "Gothic fiction, Science fiction",
+      "id": "nbnC"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "pages": 281,
+      "year": 1960,
+      "genre": "Fiction, Drama",
+      "id": "Wzdi"
+    },
+    {
+      "id": "415b",
+      "title": "Javascript 2 ",
+      "author": "Brandon Tsegai",
+      "pages": "300",
+      "year": "2026",
+      "genre": "programming"
+    }
+  ]
+}
